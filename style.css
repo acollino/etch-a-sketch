@@ -1,0 +1,19 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 900px;
+  height: 900px;
+}
+
+.row{
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box{
+  border-color: black;
+  border-style: solid;
+  flex: 1 1 auto;
+}
